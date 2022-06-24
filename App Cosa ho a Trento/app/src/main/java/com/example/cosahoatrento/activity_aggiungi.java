@@ -22,8 +22,6 @@ public class activity_aggiungi extends AppCompatActivity {
         LinearLayout l3 = findViewById(R.id.vertical3);
         LinearLayout l4 = findViewById(R.id.vertical4);
         LinearLayout l5 = findViewById(R.id.vertical5);
-        TextView date = findViewById(R.id.date);
-        date.setText("Last Modification: ");
 
         DBHelper db = new DBHelper(this);
         Cursor cursor = db.getElenco();
